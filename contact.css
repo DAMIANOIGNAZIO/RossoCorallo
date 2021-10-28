@@ -53,17 +53,13 @@ img {
     font-size: 30px;
 }
 
-.contact-item.social-links a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(207, 25, 25, 0.87);
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #6d1b1b;
-    transition: all 0.5s ease;
+.contact-item .social-links a {
+    color: navy;
+    font-size: 25px;
+}
+
+.social-links a:hover {
+    color: black;
 }
 
 @media (max-width: 768px) {
