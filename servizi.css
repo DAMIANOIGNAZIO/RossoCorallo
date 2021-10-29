@@ -1,19 +1,19 @@
-@media (max-width: 800px) {
-    .works-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        gap: 0 5rem;
-    }
-    .works-grid> :nth-child(odd) {
-        margin-top: 5rem;
-    }
-    .work-item img {
-        width: 100%;
-        height: 630px;
-        object-fit: cover;
-        background-color: black;
-    }
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 0 5rem;
+}
+
+.works-grid> :nth-child(odd) {
+    margin-top: 5rem;
+}
+
+.work-item img {
+    width: 100%;
+    height: 630px;
+    object-fit: cover;
+    background-color: black;
 }
 
 @media (max-width: 768px) {
@@ -30,14 +30,7 @@
 }
 
 h1 {
-    padding-top: 40px;
-    font-size: 45px;
-    text-align: center;
-}
-
-h4 {
-    font-size: 25px;
-    text-align: center;
+    font-size: 60px;
 }
 
 h3 {
