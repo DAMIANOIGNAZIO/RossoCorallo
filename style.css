@@ -312,19 +312,3 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-input {
-    display: inline-block;
-    background-color: #192546;
-    padding: 8px 20px;
-    margin: 30px 0;
-    border-radius: 40px;
-    transition: background 0.5s;
-    position: fixed;
-    top: 495px;
-    right: 20px;
-}
-
-.css_button2 {
-    color: #eaebee;
-}
