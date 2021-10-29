@@ -103,10 +103,16 @@ nav {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background-image: url('rossocorallo.PNG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .content img {
+        width: 430px;
+        height: 370px;
+    }
 }
 
 #testhome {
