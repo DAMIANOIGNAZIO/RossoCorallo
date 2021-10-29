@@ -11,6 +11,7 @@
 }
 
 body {
+    background-color: #e4eaf8;
     font-family: "Roboto", sans-serif;
     font-size: 1.125rem;
     line-height: 24px;
@@ -103,7 +104,7 @@ nav {
     align-items: center;
     justify-content: center;
     height: 450px;
-    background-image: url('profilo.png');
+    background-image: url('home.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
